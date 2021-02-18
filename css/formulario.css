@@ -1,0 +1,91 @@
+.formulário {
+    padding-bottom: 3rem;
+}
+
+.titulo__form {
+    text-align: center;
+    color: #f37f31;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.label__nome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.label__email {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.form__dados {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.input__name {
+    width: 90%;
+    height: 2rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    
+}
+
+.input__email {
+    width: 90%;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.botao__submit-form {
+    background: #26b6f0;
+    color: #FFF;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 16rem;
+    margin-left: 15%;
+}
+
+.botao__submit-form:hover {
+    background: #1c91c0;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .titulo__form {
+        
+        font-size: 5rem;
+        
+    }
+
+    .form__dados {
+        margin-left: 3rem;
+    }
+
+    .input__name {
+        width: 95%;
+        height: 3rem;
+        margin-bottom: 1.5rem;
+       
+        
+    }
+    
+    .input__email {
+        width: 95%;
+        height: 3rem;
+        
+    }
+
+    .botao__submit-form {
+        font-size: 1.5rem;
+        padding: 2rem;
+        width: 18rem;
+        margin-left: 30%;
+        margin-top: 1.5rem;
+    }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/palestrantes.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Alura Conf</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <ul class="cabecalho__nav-lista">
+                <li class="cabecalho__nav-item"><a class="cabecalho__nav-link" href="#sobre">Sobre</a></li>
+                <li class="cabecalho__nav-item"><a class="cabecalho__nav-link" href="#panel__palestrantes">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <div class="chamada">
+            <h1 class="titulo__principal">AluraConf</h1>
+            <p class="subtitulo__principal">30maio|Rio</p>
+        </div>
+        <div class="inscreva">
+            <a href="#formulario-inscricao" class="botao__inscreva">Inscreva-se</a>
+        </div>
+    </header>
+    
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="titulo__central">Muito conteúdo: do</br> frontend ao backend</h2>
+            <h3 class="subtitulo__central">30 de Maio de 2017 - na Cidade</br> Maravilhosa</h3>
+            <article class="artigo__principal">
+                <p>
+                    Com a AluraConf abordaremos o que há de</br>
+                    novidade e conhecimentos essenciais a um</br>
+                            desenvovedor mobile.</br>
+                    
+                    É uma grande chance de ficar por dentro dos</br>
+                    assuntos de Android, iOS, Web mobile,</br>
+                    desenvolvimento híbrido, UX, além da parte</br>
+                    backend com Rest, Microservices e BigData. O</br>
+                       desenvolvedor atualizado vai estar aqui.</br>
+
+                </p>
+            </article> 
+        </div> 
+    </section>
+
+    <section id="panel__palestrantes" class="panel__palestrantes ">
+            <div class="titulos__principais-palestrantes">
+                <h2 class="titulo__palestrantes">Palestrantes</h2>
+                <h3 class="subtitulo__palestrantes">
+                    Aprenda com palestrantes que são referência no mercado
+                </h3> 
+            </div>
+               
+        
+        
+            <div class="figures__palestrantes">
+                <figure class="palestrantes__figura">
+                    <img class="palestrantes__img" src="./img/palestrantes/placeholder.jpeg" alt="No image avaible">
+                    <h2 class="titulo__figura">Flávio Almeida</h2>
+                    <h3 class="subtitulo__figura">Desenvolvedor e instrutor da</br> Caelum</h3>
+                    <p class="palestrantes__descricao">To be or not to be MEAN</p>
+                </figure>
+                <figure class="palestrantes__figura ">
+                    <img class="palestrantes__img" src="./img/palestrantes/placeholder.jpeg" alt="No image avaible">
+                    <h2 class="titulo__figura">Flávio Almeida</h2>
+                    <h3 class="subtitulo__figura">Desenvolvedor e instrutor da</br> Caelum</h3>
+                    <p class="palestrantes__descricao">To be or not to be MEAN</p>
+                </figure>
+                <figure class="palestrantes__figura ">
+                    <img class="palestrantes__img" src="./img/palestrantes/placeholder.jpeg" alt="No image avaible">
+                    <h2 class="titulo__figura">Flávio Almeida</h2>
+                    <h3 class="subtitulo__figura">Desenvolvedor e instrutor da</br> Caelum</h3>
+                    <p class="palestrantes__descricao">To be or not to be MEAN</p>
+                </figure>
+                <figure class="palestrantes__figura ">
+                    <img class="palestrantes__img" src="./img/palestrantes/placeholder.jpeg" alt="No image avaible">
+                    <h2 class="titulo__figura">Flávio Almeida</h2>
+                    <h3 class="subtitulo__figura">Desenvolvedor e instrutor da</br> Caelum</h3>
+                    <p class="palestrantes__descricao">To be or not to be MEAN</p>
+                </figure>
+                <figure class="palestrantes__figura ">
+                    <img class="palestrantes__img" src="./img/palestrantes/placeholder.jpeg" alt="No image avaible">
+                    <h2 class="titulo__figura">Flávio Almeida</h2>
+                    <h3 class="subtitulo__figura">Desenvolvedor e instrutor da</br> Caelum</h3>
+                    <p class="palestrantes__descricao">To be or not to be MEAN</p>
+                </figure>
+                <figure class="palestrantes__figura ">
+                    <img class="palestrantes__img" src="./img/palestrantes/placeholder.jpeg" alt="No image avaible">
+                    <h2 class="titulo__figura">Flávio Almeida</h2>
+                    <h3 class="subtitulo__figura">Desenvolvedor e instrutor da</br> Caelum</h3>
+                    <p class="palestrantes__descricao">To be or not to be MEAN</p>
+                </figure>
+            </div>
+    </section>
+    
+    <section id="formulario-inscricao" class="formulário">
+        <form action="">
+            <h2 class="titulo__form"> Seus Dados</h2>
+            
+            <div class="form__dados">
+                <label class="label__nome" for="name">Nome</label>
+                <input class="input__name" id="name" type="text">
+
+                <label for="email" class="label__email">E-mail</label>
+                <input type="email" id="email" class="input__email">
+            </div>
+            
+
+            <button type="submit" class="botao__submit-form">Realizar Inscrição</button>
+        </form>
+    </section>
+     
+    <script src="./js/jquery.js"></script>
+   <script src="./js/comportamento__links.js"></script>
+</body>
+</html>

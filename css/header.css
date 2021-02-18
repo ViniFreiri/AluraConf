@@ -1,0 +1,82 @@
+.cabecalho {
+    background: url(../img/destaque.jpeg)  no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.cabecalho__nav {
+    text-align: center;
+}
+
+.cabecalho__nav-lista {
+    margin-bottom: 0;
+}
+
+.cabecalho__nav-item {
+   display: inline-block;
+   margin: 0 2px 32px 0;
+}
+
+
+.cabecalho__nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+   
+}
+
+.cabecalho__nav-link:hover {
+    background-color: #46989D; 
+}
+
+.chamada {
+    text-align: center;
+    padding: 64px;
+    margin-top: 0;
+    
+}
+
+.titulo__principal {
+    color: #FFF;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px black;
+    
+}
+
+.subtitulo__principal {
+    color: greenyellow;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px black;
+    margin-top: 8px;
+}
+
+
+.inscreva {
+    font-size: 32px;
+    text-align: center;
+}
+
+.botao__inscreva {
+    display: inline-block;
+    color: #FFF;
+    border-radius: 10px;
+    background: #46989D;
+    text-decoration: none;
+    padding: 19px;
+    padding-right: 48px;
+    padding-left: 48px;
+}
+
+@media (min-width: 650px) {
+    .chamada {
+        font-size: 28px;
+    }
+}
